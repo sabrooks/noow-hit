@@ -4,7 +4,16 @@ title:  "Heat Pumps"
 date:   2016-09-18 10:33:34 -0700
 categories: havc
 ---
-# Installation Cost
+Two types of heat pumps to consider:
+
+1.  Geothermal
+2.  Air Source (Air-to-water)
+
+### Installation Cost
+[Department of Energy Heat Pump Cost][http://energy.gov/energysaver/choosing-and-installing-geothermal-heat-pumps]
+[Kensa][http://www.kensaheatpumps.com/wp-content/uploads/2014/03/TI-Shoebox-heat-pump-%E2%80%93-5.0.pdf] small geothermal heatpump 3 or 6 (kW)
+
+The barrier to heat pumps is the installation cost.  approximate cost:  Installation is 4x the cost of the appliance.
 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
