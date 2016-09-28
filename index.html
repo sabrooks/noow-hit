@@ -1,6 +1,46 @@
 ---
 layout: home
 ---
+
+<div class="list-group">
+{% for tech in site.data.tech %}
+
+  <a href="#" class="list-group-item">
+    <h5 class="list-group-item-heading"><{{tech.name}}</h5>
+    <p>{{tech.description}}</p>
+  </a>
+
+{% endfor %}
+</div>
+
+
+<div class="card">
+    <img class="card-img-top" src="assets/self-reliance.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Self Reliance</h4>
+      <p class="card-text">Your water, food, power is the best water, food, power</p>
+      <a href="#" class="btn btn-outline-primary">Learn More About Self Reliance</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Theraputic</h4>
+      <p class="card-text">Bring therapy into your home.</p>
+      <a href="#" class="btn btn-outline-primary">Learn More About Home Therapies</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Efficient</h4>
+      <p class="card-text">The easiest to have enough is to use less.</p>
+      <a href="#" class="btn btn-outline-primary">Learn More About Home Therapies</a>
+    </div>
+  </div>
+</div>
+
 <div class="card-group">
 
   <div class="card">
@@ -28,6 +68,45 @@ layout: home
       <a href="#" class="btn btn-outline-primary">Learn More About Home Therapies</a>
     </div>
   </div>
+</div> <!-- End Card Group -->
+
+<h1>Lighting </h1>
+<p>Light is a supplement.  When, what type, and how much matter.  <p>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="assets/natural-light.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Natural Light</h4>
+      <p class="card-text">Natural light is the best light.  Great 3 season spaces make it easier to get natural light.</p>
+      <a href="#" class="btn btn-outline-primary">More about natural light</a>
+    </div>
+  </div>
+  <div class="card">
+      <img class="card-img-top" src="assets/light-quality.png" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Light Quality</h4>
+        <p class="card-text">When artifical light is needed, make sure the light is the highest quality as possible.</p>
+        <a href="#" class="btn btn-outline-primary">Light Quality</a>
+      </div>
+    </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/natural-light.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Light Therapy</h4>
+          <p class="card-text">High quality light can be supplemented with additional light to further improve performance</p>
+          <div class="list-group">
+          {% for tech in site.data.tech %}
+
+            <a href="#" class="list-group-item">
+              <h5 class="list-group-item-heading"><{{tech.name}}</h5>
+              <p>{{tech.description}}</p>
+            </a>
+
+          {% endfor %}
+          </div>
+          <a href="#" class="btn btn-outline-primary">Light Therapy</a>
+        </div>
+      </div>
 </div> <!-- End Card Group -->
 
 <div class="home">
